@@ -28,4 +28,14 @@ public class Circle {  // Save as "Circle.java"
    public double getArea() {
       return radius*radius*Math.PI;
    }
+   
+   /** Définit le rayon du cercle*/
+   public void setRadius(double radius) {
+	   this.radius = radius;
+   }
+   
+   /** Permet d'obtenir la circonférence d'un cercle */
+   public double getCircumference() {
+	   return 2*this.radius * Math.PI;
+   }
 }
